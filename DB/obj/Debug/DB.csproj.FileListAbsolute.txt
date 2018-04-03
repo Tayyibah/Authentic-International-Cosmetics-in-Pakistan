@@ -1,0 +1,32 @@
+D:\E-Shopper-boutique-\DB\bin\Debug\DB.dll.config
+D:\E-Shopper-boutique-\DB\bin\Debug\DB.dll
+D:\E-Shopper-boutique-\DB\bin\Debug\DB.pdb
+D:\E-Shopper-boutique-\DB\bin\Debug\EntityFramework.dll
+D:\E-Shopper-boutique-\DB\bin\Debug\EntityFramework.SqlServer.dll
+D:\E-Shopper-boutique-\DB\bin\Debug\EntityFramework.xml
+D:\E-Shopper-boutique-\DB\bin\Debug\EntityFramework.SqlServer.xml
+D:\E-Shopper-boutique-\DB\obj\Debug\DB.csprojResolveAssemblyReference.cache
+D:\E-Shopper-boutique-\DB\obj\Debug\DB.dll
+D:\E-Shopper-boutique-\DB\obj\Debug\DB.pdb
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\DB\bin\Debug\DB.dll.config
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\DB\bin\Debug\DB.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\DB\bin\Debug\DB.pdb
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\DB\bin\Debug\EntityFramework.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\DB\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\DB\bin\Debug\EntityFramework.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\DB\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\DB\obj\Debug\DB.csprojResolveAssemblyReference.cache
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\DB\obj\Debug\DB.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\DB\obj\Debug\DB.pdb
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\DB\bin\Debug\DB.dll.config
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\DB\bin\Debug\DB.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\DB\bin\Debug\DB.pdb
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\DB\bin\Debug\EntityFramework.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\DB\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\DB\bin\Debug\EntityFramework.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\DB\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\DB\obj\Debug\DB.csprojResolveAssemblyReference.cache
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\DB\obj\Debug\DB.csproj.CoreCompileInputs.cache
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\DB\obj\Debug\DB.csproj.CopyComplete
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\DB\obj\Debug\DB.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\DB\obj\Debug\DB.pdb

@@ -1,0 +1,159 @@
+D:\E-Shopper-boutique-\EAD_Project\bin\roslyn\csc.exe
+D:\E-Shopper-boutique-\EAD_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\E-Shopper-boutique-\EAD_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\E-Shopper-boutique-\EAD_Project\bin\roslyn\System.Collections.Immutable.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\roslyn\System.Reflection.Metadata.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\roslyn\vbc.exe
+D:\E-Shopper-boutique-\EAD_Project\bin\roslyn\VBCSCompiler.exe
+D:\E-Shopper-boutique-\EAD_Project\bin\roslyn\VBCSCompiler.exe.config
+D:\E-Shopper-boutique-\EAD_Project\bin\EAD_Project.dll.config
+D:\E-Shopper-boutique-\EAD_Project\bin\EAD_Project.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\EAD_Project.pdb
+D:\E-Shopper-boutique-\EAD_Project\bin\Antlr3.Runtime.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\DB.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\EntityFramework.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\EntityFramework.SqlServer.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\Microsoft.Web.Infrastructure.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\Newtonsoft.Json.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Net.Http.Formatting.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.Helpers.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.Http.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.Http.WebHost.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.Mvc.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.Optimization.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.Razor.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.WebPages.Deployment.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.WebPages.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.WebPages.Razor.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\WebGrease.dll
+D:\E-Shopper-boutique-\EAD_Project\bin\DB.pdb
+D:\E-Shopper-boutique-\EAD_Project\bin\EntityFramework.xml
+D:\E-Shopper-boutique-\EAD_Project\bin\EntityFramework.SqlServer.xml
+D:\E-Shopper-boutique-\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.Helpers.xml
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.Mvc.xml
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.Optimization.xml
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.Razor.xml
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.WebPages.xml
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.WebPages.Deployment.xml
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.WebPages.Razor.xml
+D:\E-Shopper-boutique-\EAD_Project\bin\Antlr3.Runtime.pdb
+D:\E-Shopper-boutique-\EAD_Project\bin\Newtonsoft.Json.xml
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Net.Http.Formatting.xml
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.Http.xml
+D:\E-Shopper-boutique-\EAD_Project\bin\System.Web.Http.WebHost.xml
+D:\E-Shopper-boutique-\EAD_Project\obj\Debug\EAD_Project.csprojResolveAssemblyReference.cache
+D:\E-Shopper-boutique-\EAD_Project\obj\Debug\EAD_Project.dll
+D:\E-Shopper-boutique-\EAD_Project\obj\Debug\EAD_Project.pdb
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\roslyn\csc.exe
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\roslyn\System.Collections.Immutable.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\roslyn\System.Reflection.Metadata.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\roslyn\vbc.exe
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\roslyn\VBCSCompiler.exe
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\roslyn\VBCSCompiler.exe.config
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\EAD_Project.dll.config
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\EAD_Project.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\EAD_Project.pdb
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\Antlr3.Runtime.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\DB.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\EntityFramework.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\EntityFramework.SqlServer.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\Microsoft.Web.Infrastructure.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\Newtonsoft.Json.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Net.Http.Formatting.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.Helpers.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.Http.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.Http.WebHost.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.Mvc.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.Optimization.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.Razor.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.WebPages.Deployment.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.WebPages.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.WebPages.Razor.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\WebGrease.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\DB.pdb
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\EntityFramework.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\EntityFramework.SqlServer.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.Helpers.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.Mvc.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.Optimization.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.Razor.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.WebPages.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.WebPages.Deployment.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.WebPages.Razor.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\Antlr3.Runtime.pdb
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\Newtonsoft.Json.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Net.Http.Formatting.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.Http.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\bin\System.Web.Http.WebHost.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\obj\Debug\EAD_Project.csprojResolveAssemblyReference.cache
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\obj\Debug\EAD_Project.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan\EAD_Project\obj\Debug\EAD_Project.pdb
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\roslyn\csc.exe
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\roslyn\System.Collections.Immutable.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\roslyn\System.Reflection.Metadata.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\roslyn\vbc.exe
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\roslyn\VBCSCompiler.exe
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\roslyn\VBCSCompiler.exe.config
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\EAD_Project.dll.config
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\EAD_Project.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\EAD_Project.pdb
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\Antlr3.Runtime.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\DB.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\EntityFramework.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\EntityFramework.SqlServer.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\Microsoft.Web.Infrastructure.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\Newtonsoft.Json.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Net.Http.Formatting.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.Helpers.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.Http.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.Http.WebHost.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.Mvc.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.Optimization.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.Razor.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.WebPages.Deployment.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.WebPages.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.WebPages.Razor.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\WebGrease.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\DB.pdb
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\DB.dll.config
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\EntityFramework.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\EntityFramework.SqlServer.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.Helpers.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.Mvc.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.Optimization.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.Razor.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.WebPages.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.WebPages.Deployment.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.WebPages.Razor.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\Antlr3.Runtime.pdb
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\Newtonsoft.Json.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Net.Http.Formatting.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.Http.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\bin\System.Web.Http.WebHost.xml
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\obj\Debug\EAD_Project.csprojResolveAssemblyReference.cache
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\obj\Debug\EAD_Project.csproj.CoreCompileInputs.cache
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\obj\Debug\EAD_Project.csproj.CopyComplete
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\obj\Debug\EAD_Project.dll
+D:\GitHUb\Authentic-International-Cosmetics-in-Pakistan - Copy\EAD_Project\obj\Debug\EAD_Project.pdb

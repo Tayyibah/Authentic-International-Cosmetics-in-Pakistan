@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Shopping_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="addToCart">
+    <Key>
+      <PropertyRef Name="cartID" />
+    </Key>
+    <Property Name="cartID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="UserID" Type="Int32" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_addToCart_Products" FromRole="addToCart" ToRole="Products" />
+    <NavigationProperty Name="User" Relationship="Self.FK_addToCart_Users" FromRole="addToCart" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Bill_To">
+    <Key>
+      <PropertyRef Name="BillNo" />
+    </Key>
+    <Property Name="BillNo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Display_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="User_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="confirm_password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Company_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="First_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Middle_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Last_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Address_1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Address_2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Zip" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="State" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Phone1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Phone2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Mobile_Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Fax" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="message" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Shipping" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="Total" Type="Int32" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Bill_To_Bill_To" FromRole="Bill_To" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="CommentID" />
+    </Key>
+    <Property Name="CommentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="CommentText" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CommentOn" Type="DateTime" Precision="0" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PictureName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_Comments_Products" FromRole="Comments" ToRole="Products" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Comments_Users" FromRole="Comments" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="contact_us">
+    <Key>
+      <PropertyRef Name="Contact_Id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="subject" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="message" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Contact_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="MappingsTable">
+    <Key>
+      <PropertyRef Name="MappingId" />
+    </Key>
+    <Property Name="MappingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="AddToCart" Type="Boolean" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="UsersTables" Relationship="Self.FK_UsersTable_MappingsTable" FromRole="MappingsTable" ToRole="UsersTable" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="PictureName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedOn" Type="DateTime" Precision="0" />
+    <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ModifiedOn" Type="DateTime" Precision="0" />
+    <Property Name="ModifiedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="isActive" Type="Boolean" />
+    <NavigationProperty Name="addToCarts" Relationship="Self.FK_addToCart_Products" FromRole="Products" ToRole="addToCart" />
+    <NavigationProperty Name="Comments" Relationship="Self.FK_Comments_Products" FromRole="Products" ToRole="Comments" />
+  </EntityType>
+  <EntityType Name="Shopper_Information">
+    <Key>
+      <PropertyRef Name="User_Name" />
+    </Key>
+    <Property Name="Display_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="User_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="password2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="isAdmin" Type="Boolean" />
+    <Property Name="isActive" Type="Boolean" />
+    <Property Name="PictureName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Designation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="addToCarts" Relationship="Self.FK_addToCart_Users" FromRole="Users" ToRole="addToCart" />
+    <NavigationProperty Name="Bill_To" Relationship="Self.FK_Bill_To_Bill_To" FromRole="Users" ToRole="Bill_To" />
+    <NavigationProperty Name="Comments" Relationship="Self.FK_Comments_Users" FromRole="Users" ToRole="Comments" />
+    <NavigationProperty Name="Users1" Relationship="Self.FK_Users_Users" FromRole="Users" ToRole="Users1" />
+    <NavigationProperty Name="User1" Relationship="Self.FK_Users_Users" FromRole="Users1" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Users11">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="isAdmin" Type="Boolean" Nullable="false" />
+    <Property Name="isActive" Type="Boolean" Nullable="false" />
+    <Property Name="PictureName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Designation" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="UsersTable">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Designation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="isActive" Type="Boolean" />
+    <Property Name="UsersType" Type="Int32" />
+    <Property Name="MappingId" Type="Int32" />
+    <Property Name="PictureName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MappingsTable" Relationship="Self.FK_UsersTable_MappingsTable" FromRole="UsersTable" ToRole="MappingsTable" />
+  </EntityType>
+  <Association Name="FK_addToCart_Products">
+    <End Role="Products" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="addToCart" Type="Self.addToCart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="addToCart">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_addToCart_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+    <End Role="addToCart" Type="Self.addToCart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="addToCart">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Bill_To_Bill_To">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Bill_To" Type="Self.Bill_To" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Bill_To">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comments_Products">
+    <End Role="Products" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="Comments" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comments_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Comments" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsersTable_MappingsTable">
+    <End Role="MappingsTable" Type="Self.MappingsTable" Multiplicity="0..1" />
+    <End Role="UsersTable" Type="Self.UsersTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MappingsTable">
+        <PropertyRef Name="MappingId" />
+      </Principal>
+      <Dependent Role="UsersTable">
+        <PropertyRef Name="MappingId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Users1" Type="Self.User" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Users1">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Shopping_DBEntities5" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="addToCarts" EntityType="Self.addToCart" />
+    <EntitySet Name="Bill_To" EntityType="Self.Bill_To" />
+    <EntitySet Name="Comments" EntityType="Self.Comment" />
+    <EntitySet Name="contact_us" EntityType="Self.contact_us" />
+    <EntitySet Name="MappingsTables" EntityType="Self.MappingsTable" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="Shopper_Information" EntityType="Self.Shopper_Information" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="Users11" EntityType="Self.Users11" />
+    <EntitySet Name="UsersTables" EntityType="Self.UsersTable" />
+    <AssociationSet Name="FK_addToCart_Products" Association="Self.FK_addToCart_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="addToCart" EntitySet="addToCarts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_addToCart_Users" Association="Self.FK_addToCart_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="addToCart" EntitySet="addToCarts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Bill_To_Bill_To" Association="Self.FK_Bill_To_Bill_To">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Bill_To" EntitySet="Bill_To" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comments_Products" Association="Self.FK_Comments_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comments_Users" Association="Self.FK_Comments_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsersTable_MappingsTable" Association="Self.FK_UsersTable_MappingsTable">
+      <End Role="MappingsTable" EntitySet="MappingsTables" />
+      <End Role="UsersTable" EntitySet="UsersTables" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Users" Association="Self.FK_Users_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Users1" EntitySet="Users" />
+    </AssociationSet>
+    <EntitySet Name="Documents" EntityType="Shopping_DBModel.Document" />
+  </EntityContainer>
+  <EntityType Name="Document">
+    <Key>
+      <PropertyRef Name="DocumentId" />
+    </Key>
+    <Property Name="DocumentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Size" Type="Int64" Nullable="false" />
+    <Property Name="Type" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FileContent" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+    <Property Name="CreatedOn" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ModifiedOn" Type="DateTime" Precision="3" />
+  </EntityType>
+</Schema>
