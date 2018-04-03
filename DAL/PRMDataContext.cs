@@ -11,7 +11,7 @@ namespace DAL
         private static readonly string ConnectionString = DatabaseHelper.Instance.MainDBConnectionString;
 
         public DbSet<Users> SampleStudents { get; set; }
-        public DbSet<EmailRequest> EmailRequests { get; set; }
+       // public DbSet<EmailRequest> EmailRequests { get; set; }
 
         public PRMDataContext()
             : base(ConnectionString)
