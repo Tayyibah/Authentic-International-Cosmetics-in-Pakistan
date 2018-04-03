@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FileList  Redist="FSharp.4.0" Name="F# 4.0" RuntimeVersion="4.0" ToolsVersion="4.0">
+  <File AssemblyName="FSharp.Core" Version="4.0.0.0" PublicKeyToken="b03f5f7f11d50a3a" Culture="neutral" ProcessorArchitecture="MSIL" InGac="true" />
+  <File AssemblyName="FSharp.Core" Version="4.0.0.0" PublicKeyToken="b03f5f7f11d50a3a" Culture="neutral" ProcessorArchitecture="MSIL" InGac="false" />
+</FileList>
